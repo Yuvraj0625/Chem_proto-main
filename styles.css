@@ -2003,7 +2003,15 @@ body {
 .team-contact-avatar {
     font-size: 4rem;
     margin-bottom: 20px;
-    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border: 4px solid white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+
 }
 
 .team-contact-card h3 {
@@ -2246,4 +2254,5 @@ body {
     .gallery-section .section-title {
         font-size: 1.5rem;
     }
+    
 }
